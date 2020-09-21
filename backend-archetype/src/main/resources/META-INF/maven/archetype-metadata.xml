@@ -27,6 +27,11 @@
     <requiredProperty key="package"/>
     <requiredProperty key="javaVersion"/>
     <requiredProperty key="githubUsername"/>
+    <!-- Fix a bug in maven-resource-plugin. see https://stackoverflow.com/a/49052349/-->
+    <requiredProperty key="gitignore">
+      <defaultValue>.gitignore</defaultValue>
+      <validationRegex>^\.gitignore$</validationRegex>
+    </requiredProperty>
   </requiredProperties>
 
   <fileSets>
@@ -37,8 +42,9 @@
       </includes>
     </fileSet>
     <fileSet filtered="true" encoding="UTF-8">
+      <directory/>
       <includes>
-        <include>.gitignore</include>
+        <include>__gitignore__</include>
         <include>README.md</include>
       </includes>
     </fileSet>

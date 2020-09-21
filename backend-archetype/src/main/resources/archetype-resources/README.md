@@ -3,5 +3,5 @@
 * Java version: ${javaVersion}
 * Packaging: war
 
-# Licence
+# License
 Todo
