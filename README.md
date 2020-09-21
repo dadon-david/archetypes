@@ -6,19 +6,16 @@ This repo contains some archetypes I created to start a project quickly
 ### backend-archetype
 
 #### Description
----
 This is a maven archetype to create a java backend to be deployed on a servlet container. It contains, among other:
 * A `.gitignore` and a `README.md`
 * A ready to use `pom.xml` with Jersey and Swagger
 * A Web Application Deployment Descriptor `web.xml`
 
 #### Prerequisite
----
 * JDK 1.8+
 * Maven 3.6.3+
 
 #### Installation
----
 ```zsh
 % cd backend-archetype
 % mvn install
