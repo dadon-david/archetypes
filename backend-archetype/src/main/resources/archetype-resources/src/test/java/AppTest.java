@@ -16,6 +16,7 @@
  */
 #end
 package $package;
-public class App {
+
+public class AppTest {
 
 }
